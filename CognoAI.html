@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cogno AI helps large enterprises manage customer support at scale.">
+  <meta name="keywords" content="Allincall, AI, Chatbots, Cogno AI">
+  <meta name="author" content="Cogno AI">
+  <title>Cogno AI</title>
+
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="https://getcogno.ai/static/CognoAIApp/assets/favico/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32"
+    href="https://getcogno.ai/static/CognoAIApp/assets/favico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16"
+    href="https://getcogno.ai/static/CognoAIApp/assets/favico/favicon-16x16.png">
+  <link rel="manifest" href="https://getcogno.ai/static/CognoAIApp/assets/favico/site.webmanifest">
+  <script src="https://unpkg.com/@babel/polyfill@7.6.0/dist/polyfill.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script>
+    window.onload = function(){
+      window.setTimeout(function(){
+        document.getElementById('rectangle2').style.display = 'block';
+      }, 9000);
+      window.setTimeout(function(){
+        document.getElementById('box1').style.display = 'block';
+      }, 11000);
+      window.setTimeout(function(){
+        document.getElementById('box2').style.display = 'block';
+      }, 13000);
+      window.setTimeout(function(){
+        document.getElementById('box3').style.display = 'block';
+      }, 15000);
+      window.setTimeout(function(){
+        document.getElementById('box4').style.display = 'block';
+      }, 16000);
+    };
+    </script>
+   
+    
+    
+    
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-112019606-7");
+  </script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="8.867.0">
+  <input type="hidden" name="csrfmiddlewaretoken"
+    value="t0TXdnw0hgFkmUyv6QWVT400CYjv8DA9GaoIPVAc5Ejc4UVPcWfc22Y6MCen6mDL">
+  <header>
+    <div class="modal" id="demoModal">
+      <div class="demoContainer">
+        <div id="closeModal" class="closeModal">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L6.03 6.03L11 11" fill="#001e88"></path>
+            <path d="M1 1L6.03 6.03L11 11" stroke="#001e88" stroke-width="2" stroke-miterlimit="10"
+              stroke-linecap="round"></path>
+            <path d="M11 1L5.97 6.03L1 11" fill="#001e88"></path>
+            <path d="M11 1L5.97 6.03L1 11" stroke="#001e88" stroke-width="2" stroke-miterlimit="10"
+              stroke-linecap="round"></path>
+          </svg>
+        </div>
+        <div class="title">
+          Tell us about your enterprise, and we’ll tell you a lot more about
+          ours.
+        </div>
+        <input class="input" id="input-name" name="name" type="text" placeholder="Your Name" required="">
+        <input class="input" id="input-email" name="email" type="text" placeholder="Your Work Email*" required="">
+        <input class="input" id="input-number" name="number" type="tel" placeholder="Your Phone Number*"
+          required="true">
+        <input class="input" id="input-company" name="company" type="text" placeholder="Company Name*" required="true">
+        <select class="select-size" id="select-company-size">
+          <option class="disabledOption" disabled="disabled" selected="selected" value="">Company Size</option>
+          <option>1-99</option>
+          <option>100-500</option>
+          <option>501-5000</option>
+          <option>5000+ Employees</option>
+        </select>
+        <button class="requestButtonModal" type="submit" method="POST" onclick="send_data_to_server()">
+          Request Demo &nbsp;
+        </button>
+      </div>
+    </div>
+    <div class="topColor">
+      <!-- <a href="#">AllinCall is now Cogno AI</a> -->
+    </div>
+    <div class="nav sticky boxShadow" id="navbar">
+      <a href="#"><img src="assets/img/logoFullWhite.svg" alt="logo with frontDesk" class="logo"></a>
+      <div class="deskItems">
+        <a href="javascript:void(0)" style="font-weight: bold;">Home</a>
+        <!-- <a href="/about">About</a> -->
+        <a href="#sectionProducts">Solutions</a>
+        <!-- <a href="/blogs">Blog</a> -->
+        <a href="https://hr.allincall.in/hr-manager/careers/">Careers</a>
+        <a href="#footer">Contact</a>
+      </div>
+      <button class="requestButtonTop" id="modalOpen" type="submit">
+        Request Demo
+      </button>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </div>
+    <div class="circle"
+      style="transform: perspective(500px) translate(-50%, -50%) translate3d(1322.87px, 24.8852px, 0px) scale(0.2); opacity: 1; mix-blend-mode: overlay; background-color: transparent;">
+    </div>
+  </header>
+  <div class="nav-bar">
+    <a href="https://getcogno.ai/" class="left left1 mouseEffectNone">Home</a>
+    <a href="https://getcogno.ai/#sectionProducts" class="left left3 mouseEffectNone" id="nav_bar_item">Solutions</a>
+    <a href="https://hr.allincall.in/hr-manager/careers/" class="left left5 mouseEffectNone">Careers</a>
+  </div>
+
+  <div class="pageContent">
+    <div class="section section1">
+      <img src="assets/img/world.svg" alt="Logo Image Large" class="logoImageLarge">
+
+      <div class="content explore">
+        <div class="welcomeIcon" style="opacity: 1; transform: translate(0px); visibility: inherit;">
+          <img id="imgBanner" src="assets/img/illustration2.svg" alt="Message Icon" class="messageIcon"
+            style="perspective: 100px; opacity: 1; transform: translate(0px);">
+        </div>
+
+        <div class="welcomeText1 explore">
+          <div class="notUnderline explore" style="opacity: 1; transform: translate(0px); visibility: inherit;">We help
+            large enterprises</div>
+          <div class="underline explore" style="opacity: 1; transform: translate(0px); visibility: inherit;">
+            manage customer experience at scale
+          </div>
+        </div>
+        <div class="subHead" style="opacity: 1; transform: translate(0px);">
+          <span class="archia">Cogno AI</span>'s intelligent support, sales,
+          and customer engagement solutions allow leading enterprises to set
+          up world class customer support experiences rapidly at scale.
+        </div>
+
+        <button class="requestButton" id="modalOpen"
+          style="opacity: 1; transform: translate(0px); visibility: visible;">
+          Request Demo &nbsp;
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="path1" d="M1 8H15" stroke="#fff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+            <path class="path1" d="M8 1L15 8L8 15" stroke="#fff" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <mybot></mybot>
+  </div><!--container end-->
+  <!--JS-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="assets/js/script.js"></script>
+
+
+
+</body>
+
+</html>
